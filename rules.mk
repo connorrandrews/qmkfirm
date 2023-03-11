@@ -1,6 +1,8 @@
 # This file intentionally left blank
-SPLIT_KEYBOARD = yes
 
 HAPTIC_ENABLE = yes
 HAPTIC_DRIVER += SOLENOID
-QK_HAPTIC_FEEDBACK_TOGGLE = keypress
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
+WPM_ENABLE = yes
+LTO_ENABLE = yes

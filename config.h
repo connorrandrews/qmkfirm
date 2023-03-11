@@ -3,9 +3,9 @@
 
 #pragma once
 #define USE_I2C
-#define MASTER_LEFT
-#define SPLIT_HAND_PIN 
-
+#define SOLENOID_PIN B7
+#define OLED_TIMEOUT 120000
+#define OLED_BRIGHTNESS 120
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
